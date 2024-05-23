@@ -41,7 +41,7 @@ const SignUp = () => {
             title="Email"
             value={form.email}
             handleChangeText={(e) => setForm({ ...form, email: e })}
-            otherStyles="mt-7"
+            otherStyles="mt-5"
             keyboardType="email-address"
           />
 
@@ -49,7 +49,7 @@ const SignUp = () => {
             title="Password"
             value={form.password}
             handleChangeText={(e) => setForm({ ...form, password: e })}
-            otherStyles="mt-7"
+            otherStyles="mt-5"
           />
 
           <CustomBtn
@@ -66,7 +66,7 @@ const SignUp = () => {
               href={"/sign-in"}
               className="text-lg font-pregular text-secondary-200"
             >
-              Log In
+              Sign In
             </Link>
           </View>
         </View>
